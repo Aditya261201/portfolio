@@ -1,0 +1,79 @@
+@import "../../vars.css";
+
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    z-index: 3;
+    margin: 0 10%;
+    
+}
+
+
+.title{
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.menu{
+    display: flex;
+
+}
+
+
+.menuitems{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+
+.menuitems a{
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.menuitems li :hover{
+    text-shadow: 2px 2px 4px #fff;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 830px) {
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .menu{
+        position: absolute;
+        flex-direction: column;
+        right: 0;
+        margin-right: 10%;
+        align-items: flex-end;
+        gap: 10px;
+        z-index: 5;
+    }
+
+    .menuitems{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        border-radius: 10px;
+        padding: 20px 30px;
+        background: #34319283;
+        background: linear-gradient(0deg,#06084183 0% ,#6968ba83 100%);
+        box-shadow: 0 0 4px 0 #0b0c1b83;
+    }
+    .openedmenu{
+        display: flex;
+        z-index: 1;
+
+    }
+}
