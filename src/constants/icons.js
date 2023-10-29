@@ -16,9 +16,6 @@ const Images = {
     git:require('../Assets/skills/git.png'),
     github:require('../Assets/skills/github.png'),
     node:require('../Assets/skills/node.png'),
-
-
-
 }
 
 export default Images

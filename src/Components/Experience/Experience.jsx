@@ -10,8 +10,8 @@ const Experience = () => {
         <h2 className='title'>Skills</h2>
                 <div className='iconscontainer'>
                     <div className='icons'>{
-                    skil.map((item) => { 
-                        return<div className='skill'>
+                    skil.map((item,id) => { 
+                        return<div key={id} className='skill'>
                             <img src={item.imageSrc} alt={item.title} className='skillimg'/>
                             <h3 className='skilltitle'>{item.title}</h3>
                         </div>

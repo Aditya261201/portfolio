@@ -11,7 +11,7 @@ const About = () => {
                     <img src={about}/>
                 </div>
                 <div className='aboutdata'>
-                <h2>ABOUT</h2>
+                <h2 className='aboutheading'>ABOUT</h2>
                     <ul>
                         <li>
                             <h3>Masters in Computer Applications(MCA)</h3>

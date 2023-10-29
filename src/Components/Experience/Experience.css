@@ -9,7 +9,7 @@ section h2{
 }
 .expcontainer{
     color: var(--color-text);
-    height: 120vh;
+    height: 100vh;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -38,25 +38,23 @@ section h2{
 .skillimg{
     padding: 30px;
     border-radius: 20px;
-    /* background-color: var(--color-primary); */
     margin-left: 50px;
     margin-right: 50px;
-    /* -webkit-filter: drop-shadow(5px 5px 5px #ffffff); */
     filter: drop-shadow(5px 5px 5px #ffffff);
 }
 
 @media screen and (max-width: 1024px) {
     .expcontainer{
-        height: 160vh;
+        height: 100vh;
     }
     .skillimg {
         margin-left: 30px;
         margin-right: 30px;
     }
 }
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 770px) {
     .expcontainer {
-        height: 160vh;
+        height: 130vh;
     }
     .skillimg {
         margin-left: 15px;
