@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 
 const Project = () => {
     return (
-        <section className='projectcontainer'>
+        <section className='projectcontainer' id='projects'>
             <h2 className='title'>Projects</h2>
             <div className="projects">{
                 projs.map((project, id) => {

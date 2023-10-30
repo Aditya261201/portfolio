@@ -3,7 +3,7 @@ import './ProjectCard.css';
 
 const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source} }) => {
     return (
-        <div className='cardcontainer'>
+        <div data-aos="zoom-in" className='cardcontainer'>
         <img src={imageSrc} alt={`Image of ${title}`} className='cardimg'/>
         <h3 className='cardtitle'>{title}</h3>
         <p className='carddesc'>{description}</p>

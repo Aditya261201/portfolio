@@ -11,7 +11,8 @@ const Experience = () => {
                 <div className='iconscontainer'>
                     <div className='icons'>{
                     skil.map((item,id) => { 
-                        return<div key={id} className='skill'>
+                        return <div data-aos="fade-up"
+                            data-aos-anchor-placement="center-center" key={id} className='skill'>
                             <img src={item.imageSrc} alt={item.title} className='skillimg'/>
                             <h3 className='skilltitle'>{item.title}</h3>
                         </div>

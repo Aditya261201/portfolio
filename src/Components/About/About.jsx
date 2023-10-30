@@ -6,11 +6,11 @@ import about from './about.png';
 const About = () => {
     return (
         <section>
-            <div className="aboutcontainer" id='about'>
-                <div className='aboutimage'>
+            <div data-aos="fade-up" className="aboutcontainer" id='about'>
+                <div data-aos="fade-right" className='aboutimage'>
                     <img src={about}/>
                 </div>
-                <div className='aboutdata'>
+                <div data-aos="fade-left" className='aboutdata'>
                 <h2 className='aboutheading'>ABOUT</h2>
                     <ul>
                         <li>

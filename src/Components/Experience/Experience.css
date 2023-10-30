@@ -9,7 +9,7 @@ section h2{
 }
 .expcontainer{
     color: var(--color-text);
-    height: 100vh;
+    height: 80vh;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -41,6 +41,16 @@ section h2{
     margin-left: 50px;
     margin-right: 50px;
     filter: drop-shadow(5px 5px 5px #ffffff);
+    animation: rotateY-anim 3s linear infinite;
+}
+@keyframes rotateY-anim {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
 }
 
 @media screen and (max-width: 1024px) {

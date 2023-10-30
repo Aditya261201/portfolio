@@ -27,7 +27,7 @@ const Hero = () => {
                         repeat={Infinity}
                     />
                 </div>
-                <div className='btndiv'>
+                <div data-aos="zoom-in" className='btndiv'>
                     <a href="mailto:myemail@gmail.com" className='contactbtn'>Contact me</a>
                 </div>
             

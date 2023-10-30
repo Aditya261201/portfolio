@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return<nav className='navbar'>
         <a href='/' className='title'>Portfolio</a>
-        <div className='menu'>
+        <div data-aos="fade-down" className='menu'>
             {menuopen ? <AiOutlineClose className='menubtn' onClick={() => { setmenuopen(!menuopen) }} /> : <GiHamburgerMenu className='menubtn' onClick={() => { setmenuopen(!menuopen) }} />}
             
             <ul className={`menuitems ${menuopen? "openedmenu": ""}`} onClick={()=>{setmenuopen(false)}}>
